@@ -115,6 +115,7 @@ textarea::placeholder {
 	background: #0A3871;
 	color: white;
 	transition: background-color 0.3s ease, color 0.3s ease;
+	cursor: pointer;
 }
 
 .btn__desencriptar {
