@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="shortcut icon" href="./images/icon.svg">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__menu">
+            <a href="https://app.aluracursos.com" target=""><img src="./images/logo.png" alt="Alura"></a>
+            <a href=""><img src="./images/moon.svg" alt=""></a>
+        </nav>
+    </header>
+    <main>        
+        <section class="izquierda">
+            <textarea id="textarea__encriptar" class="textarea" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="contenido__botones">
+                <div id="encrip__advertencia" class="encrip__advertencia">
+                    <img src="/images/info.svg" alt="Imagen aviso" class="aviso">
+                    <h6 id="advertencia" class="advertencia">Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="botones">
+                    <button type="submit" id="btn__encriptar" class="btn__encriptar">Encriptar</button>
+                    <button type="submit" id="btn__desencriptar" class="btn__desencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        <section class="derecha">
+            <div id="contenido__derecha" class="contenido__derecha">
+                <img class="persona" src="./images/persona.png" alt="imagen persona">                
+                <p id="info" class="info">Ningún mensaje fue encontrado</p>
+            </div> 
+            <div class="texto__contenedor">
+                <textarea id="texto__final" class="textoFinal" placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea>               
+                <button type="submit" id="btn__copiar" class="btn__copiar">Copiar</button>
+            </div>            
+        </section>
+        
+    </main>
+    <footer>
+        <hr>
+        <h5 class="footer">&copy; LOPES 2024. Lopez Esquivel Valois</h5>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
